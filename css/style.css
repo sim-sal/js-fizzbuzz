@@ -1,0 +1,41 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole contenitore generale */
+#general-container{
+    background-color: rgb(8, 57, 74);
+}
+
+#general-container > h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* regole container associato a js */
+#contenitore{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}
+
+#contenitore .square{
+    background-color: rgb(19, 140, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(14% - 20px);
+    height: 130px;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ 
+
