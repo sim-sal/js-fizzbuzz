@@ -24,8 +24,7 @@
     margin: auto;
 }
 
-#contenitore .square{
-    background-color: rgb(19, 140, 180);
+#contenitore .square , .fizz , .buzz , .fizzbuzz{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +34,22 @@
     margin: 10px;
     font-weight: bold;
     font-size: 25px;
+}
+
+.square{
+    background-color: rgb(19, 140, 180);
+}
+
+.fizz{
+    background-color: rgb(12, 212, 159);
+}
+
+.buzz{
+    background-color: rgb(255, 209, 102);
+}
+
+.fizzbuzz{
+    background-color: rgb(240, 71, 110);
 }
 
  
