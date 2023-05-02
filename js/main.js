@@ -17,19 +17,19 @@ for (let i = 1; i <= 100; i++){
     // aggiungo al contenitore l'elemento creato
     contenitore.append(quadrato);
 
-    // aggiungo le condizioni per i numeri divisibili per 3
+    // // aggiungo le condizioni per i numeri divisibili sia per 3 che per 5
     if (i % 3 == 0 && i % 5 == 0){
         quadrato.classList.remove('square');
         quadrato.classList.add('fizzbuzz');
         quadrato.innerHTML = "fizzBuzz";
     }
-    // aggiungo le condizioni per i numeri divisibili per 5
+    // aggiungo le condizioni per i numeri divisibili per 3
     else if (i%3==0){
         quadrato.classList.remove('square');
         quadrato.classList.add('fizz');
         quadrato.innerHTML = "fizz";
     }
-    // aggiungo le condizioni per i numeri divisibili sia per 3 che per 5
+    // aggiungo le condizioni per i numeri divisibili per 5
     else if (i%5==0){
         quadrato.classList.remove('square');
         quadrato.classList.add('buzz');
